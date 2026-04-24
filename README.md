@@ -6,7 +6,7 @@ Campaign Manager is a Yarn workspaces monorepo with a Node.js backend and a Reac
 
 This project is delivered through an AI agent workflow centered on vertical user stories, with explicit enablers/spikes, repeatable prompt-driven execution, quality gates, and story-level implementation documentation.
 
-- Workflow guide: `docs/showcase/workflow.md`
+- [Workflow guide](docs/showcase/workflow.md)
 
 ## Stack Decision Summary
 
