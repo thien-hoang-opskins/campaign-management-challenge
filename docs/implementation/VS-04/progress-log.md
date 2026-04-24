@@ -14,7 +14,7 @@
 5. Added VS-04 seeder with deterministic detail/stats sample data.
 6. Added package scripts for VS-04 seed and undo.
 7. Ran backend tests, backend build, frontend build successfully.
-8. Wrote `docs/implementation/VS-04/` story artifacts.
+8. Wrote [VS-04 story artifacts](README.md).
 
 ## Blockers
 

@@ -14,7 +14,7 @@
    - repeated send idempotent conflict (`409 ALREADY_SENT`)
 6. Added VS-07 seeder and package scripts for send-flow QA data.
 7. Ran backend tests + backend build + frontend build successfully.
-8. Wrote `docs/implementation/VS-07/` artifacts.
+8. Wrote [VS-07 artifacts](README.md).
 
 ## Blockers
 

@@ -22,7 +22,7 @@
 - Verification and hardening of `VS-01` auth flow across backend and frontend.
 - Backend tests for login success/failure and protected route enforcement.
 - Seed data support for `VS-01` login and protected-route demo flow.
-- Story-level implementation documentation in `docs/implementation/VS-01/`.
+- Story-level implementation documentation under [VS-01](README.md).
 
 ### Excluded
 
@@ -43,11 +43,11 @@
 
 ### Docs
 
-- `docs/implementation/VS-01/README.md` (new)
-- `docs/implementation/VS-01/progress-log.md` (new)
-- `docs/implementation/VS-01/architecture.md` (new)
-- `docs/implementation/VS-01/decisions.md` (new)
-- `docs/implementation/VS-01/test-report.md` (new)
+- [README.md](README.md) (new)
+- [progress-log.md](progress-log.md) (new)
+- [architecture.md](architecture.md) (new)
+- [decisions.md](decisions.md) (new)
+- [test-report.md](test-report.md) (new)
 
 ### Tests
 

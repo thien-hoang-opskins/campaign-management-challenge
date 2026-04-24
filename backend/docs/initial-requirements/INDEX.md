@@ -17,7 +17,7 @@ Use this folder as the implementation source of truth for Part I (Backend).
 5. Enforce business rules in service layer and DB constraints.
 6. Add at least 3 meaningful tests for critical paths.
 7. Validate full flow locally from clean DB state.
-8. Document final decisions in `README.md`.
+8. Document final decisions in [backend README](../../README.md).
 
 ## Conflict Resolution Policy
 When requirement variants disagree, prefer:

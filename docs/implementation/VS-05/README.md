@@ -42,11 +42,11 @@
 
 ### Docs
 
-- `docs/implementation/VS-05/README.md` (new)
-- `docs/implementation/VS-05/progress-log.md` (new)
-- `docs/implementation/VS-05/architecture.md` (new)
-- `docs/implementation/VS-05/decisions.md` (new)
-- `docs/implementation/VS-05/test-report.md` (new)
+- [README.md](README.md) (new)
+- [progress-log.md](progress-log.md) (new)
+- [architecture.md](architecture.md) (new)
+- [decisions.md](decisions.md) (new)
+- [test-report.md](test-report.md) (new)
 
 ### Tests
 

@@ -23,7 +23,7 @@
 - Campaign-row lock usage during send transaction to reduce double-send race risk.
 - Backend tests for send finality and idempotent conflict policy.
 - VS-07 seed data for manual send flow verification.
-- Story documentation package under `docs/implementation/VS-07/`.
+- Story documentation package under [VS-07](README.md).
 
 ### Excluded
 
@@ -38,7 +38,7 @@
 - `backend/tests/campaignSend.test.ts` (new)
 - `backend/src/seeders/20260424000600-seed-vs07-send-data.js` (new)
 - `backend/package.json` (added `db:seed:vs07`, `db:seed:vs07:undo`)
-- `backend/README.md` (updated seed command list)
+- [backend/README.md](../../../backend/README.md) (updated seed command list)
 
 ### Frontend
 
@@ -46,11 +46,11 @@
 
 ### Docs
 
-- `docs/implementation/VS-07/README.md` (new)
-- `docs/implementation/VS-07/progress-log.md` (new)
-- `docs/implementation/VS-07/architecture.md` (new)
-- `docs/implementation/VS-07/decisions.md` (new)
-- `docs/implementation/VS-07/test-report.md` (new)
+- [README.md](README.md) (new)
+- [progress-log.md](progress-log.md) (new)
+- [architecture.md](architecture.md) (new)
+- [decisions.md](decisions.md) (new)
+- [test-report.md](test-report.md) (new)
 
 ### Tests
 

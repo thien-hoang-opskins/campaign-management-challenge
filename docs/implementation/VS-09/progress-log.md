@@ -16,7 +16,7 @@
 7. Wired frontend protected route + navigation entry for recipient page.
 8. Added VS-09 seeder and package scripts.
 9. Ran full backend test suite and backend/frontend builds successfully.
-10. Authored `docs/implementation/VS-09/` artifact set.
+10. Authored [VS-09 artifact set](README.md).
 
 ## Blockers
 

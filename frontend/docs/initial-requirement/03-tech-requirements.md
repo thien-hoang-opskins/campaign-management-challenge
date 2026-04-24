@@ -25,4 +25,4 @@
 | Client state | Redux only | Zustand **or** Redux | Prefer **Zustand** for minimal boilerplate **or** **Redux Toolkit** if you need strict patterns—document the choice |
 | Monorepo / Yarn | Silent | Required | Match **actual repo layout**; if already a monorepo, satisfy variant B |
 
-Record the final choice in the repository `README.md` (or frontend `README.md`) so reviewers see a single source of truth.
+Record the final choice in the [repository README](../../../README.md) (or [frontend README](../../README.md)) so reviewers see a single source of truth.

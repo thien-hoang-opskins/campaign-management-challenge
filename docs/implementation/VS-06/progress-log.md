@@ -10,7 +10,7 @@
    - non-draft scheduling rejection (`409`)
 4. Added frontend client-side schedule timestamp validation to prevent obvious invalid submissions.
 5. Ran backend tests, backend build, and frontend build successfully.
-6. Created full `docs/implementation/VS-06/` artifact set.
+6. Created full [VS-06 artifact set](README.md).
 
 ## Blockers
 

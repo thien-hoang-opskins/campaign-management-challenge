@@ -26,11 +26,11 @@ Node.js + Express REST API for campaign lifecycle, recipients, auth, and deliver
 
 ## Requirements source
 
-- `docs/initial-requirements/01-schema-design.md`
-- `docs/initial-requirements/02-api-endpoints.md`
-- `docs/initial-requirements/03-business-rules.md`
-- `docs/initial-requirements/04-tech-requirements.md`
-- `docs/initial-requirements/INDEX.md` (verification checklist)
+- [01-schema-design.md](docs/initial-requirements/01-schema-design.md)
+- [02-api-endpoints.md](docs/initial-requirements/02-api-endpoints.md)
+- [03-business-rules.md](docs/initial-requirements/03-business-rules.md)
+- [04-tech-requirements.md](docs/initial-requirements/04-tech-requirements.md)
+- [INDEX.md](docs/initial-requirements/INDEX.md) (verification checklist)
 
 ## Stack choices (variant conflicts)
 

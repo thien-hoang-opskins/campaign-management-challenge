@@ -12,7 +12,7 @@
 5. Added backend tests in `campaignList.test.ts` for ownership filter and pagination behavior.
 6. Added `VS-03` seeder for draft/scheduled/sent list examples.
 7. Ran backend tests + backend build + frontend build successfully.
-8. Authored `docs/implementation/VS-03/` documentation artifacts.
+8. Authored [VS-03 documentation artifacts](README.md).
 
 ## Blockers
 

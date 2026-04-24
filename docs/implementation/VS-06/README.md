@@ -21,7 +21,7 @@
 
 - Backend tests for schedule success, invalid past timestamp, and non-draft rejection.
 - Frontend client-side “future time” validation before schedule mutation.
-- Story documentation for implementation, decisions, architecture, and test outcomes.
+- Story documentation for implementation, decisions, architecture, and test outcomes ([VS-06](README.md)).
 
 ### Excluded
 
@@ -40,11 +40,11 @@
 
 ### Docs
 
-- `docs/implementation/VS-06/README.md` (new)
-- `docs/implementation/VS-06/progress-log.md` (new)
-- `docs/implementation/VS-06/architecture.md` (new)
-- `docs/implementation/VS-06/decisions.md` (new)
-- `docs/implementation/VS-06/test-report.md` (new)
+- [README.md](README.md) (new)
+- [progress-log.md](progress-log.md) (new)
+- [architecture.md](architecture.md) (new)
+- [decisions.md](decisions.md) (new)
+- [test-report.md](test-report.md) (new)
 
 ### Tests
 

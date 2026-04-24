@@ -2,7 +2,7 @@
 
 ## 2026-04-24
 
-1. Parsed `VS-05` contract from `docs/features/vertical-user-stories.md`.
+1. Parsed `VS-05` contract from [docs/features/vertical-user-stories.md](../../features/vertical-user-stories.md).
 2. Verified backend draft-only guards already existed for patch/delete in service layer.
 3. Identified frontend gap: no explicit edit action was available despite `PATCH` story scope.
 4. Added draft-only edit form and update mutation flow on campaign detail page.
@@ -10,7 +10,7 @@
    - allowed on draft
    - blocked with `409` + `INVALID_STATE` on non-draft
 6. Executed backend tests, backend build, and frontend build.
-7. Wrote `docs/implementation/VS-05/` documentation artifacts.
+7. Wrote [VS-05 documentation artifacts](README.md).
 
 ## Blockers
 

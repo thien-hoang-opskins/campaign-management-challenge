@@ -12,7 +12,7 @@
 6. Updated login/create/list/detail pages to use centralized error presentation utility.
 7. Added backend `errorEnvelope` tests to verify consistent envelope and machine-readable code for key business failure.
 8. Ran backend tests and backend/frontend builds successfully.
-9. Wrote `docs/implementation/VS-08/` artifacts.
+9. Wrote [VS-08 artifacts](README.md).
 
 ## Blockers
 

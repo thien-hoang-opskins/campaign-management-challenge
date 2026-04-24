@@ -21,7 +21,7 @@
 - Hardened API client error handling for network and non-JSON error responses.
 - Rewired key pages to use centralized error messaging.
 - Added backend tests for consistent error envelope and machine-readable business-failure code presence.
-- Added VS-08 documentation package.
+- Added [VS-08 documentation package](README.md).
 
 ### Excluded
 
@@ -45,11 +45,11 @@
 
 ### Docs
 
-- `docs/implementation/VS-08/README.md` (new)
-- `docs/implementation/VS-08/progress-log.md` (new)
-- `docs/implementation/VS-08/architecture.md` (new)
-- `docs/implementation/VS-08/decisions.md` (new)
-- `docs/implementation/VS-08/test-report.md` (new)
+- [README.md](README.md) (new)
+- [progress-log.md](progress-log.md) (new)
+- [architecture.md](architecture.md) (new)
+- [decisions.md](decisions.md) (new)
+- [test-report.md](test-report.md) (new)
 
 ### Tests
 

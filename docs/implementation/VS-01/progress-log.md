@@ -2,15 +2,15 @@
 
 ## 2026-04-24
 
-1. Parsed `docs/prompts/vertical-story-implementation-prompt.md` and selected `VS-01` from `docs/features/vertical-user-stories.md`.
+1. Parsed [docs/prompts/vertical-story-implementation-prompt.md](../../prompts/vertical-story-implementation-prompt.md) and selected `VS-01` from [docs/features/vertical-user-stories.md](../../features/vertical-user-stories.md).
 2. Reviewed dependencies (`EN-01`, `EN-02`, `EN-06`, `EN-08`) and validated existing backend/frontend coverage.
 3. Confirmed existing code already implemented:
    - `POST /auth/login` with credential verification and JWT issuance.
    - Protected backend routes through auth middleware.
    - Frontend protected route redirect behavior and in-memory JWT session policy.
 4. Added backend verification tests in `backend/tests/authFlow.test.ts` for login success/failure and unauthenticated route access.
-5. Created `docs/implementation/VS-01/` documentation set.
-6. Ran validation commands and recorded outcomes in `test-report.md`.
+5. Created [VS-01 documentation set](README.md).
+6. Ran validation commands and recorded outcomes in [test-report.md](test-report.md).
 7. Added Sequelize CLI seeder `backend/src/seeders/20260424000300-seed-vs01-demo-data.js` and package scripts (`db:seed:vs01`, `db:seed:vs01:undo`) to provide demo data for the `VS-01` flow.
 8. Updated `VS-01` implementation docs with seed command, undo command, and default credentials.
 

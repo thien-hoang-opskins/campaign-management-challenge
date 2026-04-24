@@ -22,7 +22,7 @@
 - Frontend detail page now fetches both detail and stats endpoints explicitly.
 - Backend tests for stats contract and ownership/not-found error paths.
 - VS-04 seed data for detail/stats manual verification.
-- Complete story documentation in `docs/implementation/VS-04/`.
+- Complete story documentation in [VS-04](README.md).
 
 ### Excluded
 
@@ -36,7 +36,7 @@
 - `backend/tests/campaignDetailStats.test.ts` (new)
 - `backend/src/seeders/20260424000500-seed-vs04-detail-stats-data.js` (new)
 - `backend/package.json` (added `db:seed:vs04`, `db:seed:vs04:undo`)
-- `backend/README.md` (updated commands list)
+- [backend/README.md](../../../backend/README.md) (updated commands list)
 
 ### Frontend
 
@@ -44,11 +44,11 @@
 
 ### Docs
 
-- `docs/implementation/VS-04/README.md` (new)
-- `docs/implementation/VS-04/progress-log.md` (new)
-- `docs/implementation/VS-04/architecture.md` (new)
-- `docs/implementation/VS-04/decisions.md` (new)
-- `docs/implementation/VS-04/test-report.md` (new)
+- [README.md](README.md) (new)
+- [progress-log.md](progress-log.md) (new)
+- [architecture.md](architecture.md) (new)
+- [decisions.md](decisions.md) (new)
+- [test-report.md](test-report.md) (new)
 
 ### Tests
 

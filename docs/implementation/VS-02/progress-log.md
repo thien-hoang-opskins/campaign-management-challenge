@@ -2,7 +2,7 @@
 
 ## 2026-04-24
 
-1. Parsed `VS-02` contract from `docs/features/vertical-user-stories.md`.
+1. Parsed `VS-02` contract from [docs/features/vertical-user-stories.md](../../features/vertical-user-stories.md).
 2. Reviewed dependencies (`EN-01`, `EN-02`, `EN-03`, `EN-06`) and requirement docs for schema, endpoint, and business rules.
 3. Verified existing backend create flow already:
    - creates campaign in `draft`
@@ -14,7 +14,7 @@
    - request validation error response on invalid create payload
 6. Updated frontend create page with typed client-side validation and improved recipient input UX.
 7. Ran backend tests, backend build, and frontend build; all passed.
-8. Authored story documentation artifacts under `docs/implementation/VS-02/`.
+8. Authored story documentation artifacts under [VS-02](README.md).
 
 ## Blockers
 

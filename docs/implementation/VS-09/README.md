@@ -21,7 +21,7 @@
 - Frontend recipient management page with list/create + loading/error states.
 - Protected route wiring for recipient management page.
 - VS-09 seed data and command scripts.
-- Story docs package under `docs/implementation/VS-09/`.
+- Story docs package under [VS-09](README.md).
 
 ### Excluded
 
@@ -38,7 +38,7 @@
 - `backend/tests/recipientApi.test.ts` (new)
 - `backend/src/seeders/20260424000700-seed-vs09-recipients-data.js` (new)
 - `backend/package.json` (added VS-09 seed scripts)
-- `backend/README.md` (added VS-09 seed command)
+- [backend/README.md](../../../backend/README.md) (added VS-09 seed command)
 
 ### Frontend
 
@@ -50,11 +50,11 @@
 
 ### Docs
 
-- `docs/implementation/VS-09/README.md` (new)
-- `docs/implementation/VS-09/progress-log.md` (new)
-- `docs/implementation/VS-09/architecture.md` (new)
-- `docs/implementation/VS-09/decisions.md` (new)
-- `docs/implementation/VS-09/test-report.md` (new)
+- [README.md](README.md) (new)
+- [progress-log.md](progress-log.md) (new)
+- [architecture.md](architecture.md) (new)
+- [decisions.md](decisions.md) (new)
+- [test-report.md](test-report.md) (new)
 
 ### Tests
 

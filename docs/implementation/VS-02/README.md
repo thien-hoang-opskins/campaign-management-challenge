@@ -23,7 +23,7 @@
 - Verified/covered duplicate recipient-link prevention behavior.
 - Added typed client-side validation and improved recipient email input UX.
 - Added backend tests for VS-02 create behavior and error path.
-- Added story documentation under `docs/implementation/VS-02/`.
+- Added story documentation under [VS-02](README.md).
 
 ### Excluded
 
@@ -43,11 +43,11 @@
 
 ### Docs
 
-- `docs/implementation/VS-02/README.md` (new)
-- `docs/implementation/VS-02/progress-log.md` (new)
-- `docs/implementation/VS-02/architecture.md` (new)
-- `docs/implementation/VS-02/decisions.md` (new)
-- `docs/implementation/VS-02/test-report.md` (new)
+- [README.md](README.md) (new)
+- [progress-log.md](progress-log.md) (new)
+- [architecture.md](architecture.md) (new)
+- [decisions.md](decisions.md) (new)
+- [test-report.md](test-report.md) (new)
 
 ### Tests
 

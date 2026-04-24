@@ -23,7 +23,7 @@
 - Frontend campaign list pagination controls.
 - Explicit unknown status badge fallback class and color styling.
 - Seeder for `VS-03` list data samples by status.
-- Story documentation and validation records under `docs/implementation/VS-03/`.
+- Story documentation and validation records under [VS-03](README.md).
 
 ### Excluded
 
@@ -46,11 +46,11 @@
 
 ### Docs
 
-- `docs/implementation/VS-03/README.md` (new)
-- `docs/implementation/VS-03/progress-log.md` (new)
-- `docs/implementation/VS-03/architecture.md` (new)
-- `docs/implementation/VS-03/decisions.md` (new)
-- `docs/implementation/VS-03/test-report.md` (new)
+- [README.md](README.md) (new)
+- [progress-log.md](progress-log.md) (new)
+- [architecture.md](architecture.md) (new)
+- [decisions.md](decisions.md) (new)
+- [test-report.md](test-report.md) (new)
 
 ### Tests
 

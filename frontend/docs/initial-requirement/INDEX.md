@@ -19,7 +19,7 @@ Content was retrieved via the Notion MCP `notion-fetch` tool. The live page cont
 
 ## Agent workflow
 
-1. Align stack choices where the two Part 2 variants disagree (document the decision in the repo root or frontend `README.md`).
+1. Align stack choices where the two Part 2 variants disagree (document the decision in the [repository README](../../../README.md) or [frontend README](../../README.md)).
 2. Implement routing and auth gate (`/login` vs protected campaign routes).
 3. Wire list, create, and detail flows to the backend API contract.
 4. Implement status badges, conditional actions, stats visualization, API error surfacing, and loading UX.

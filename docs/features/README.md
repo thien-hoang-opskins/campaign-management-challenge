@@ -7,22 +7,22 @@ This folder converts initial requirements into a product backlog using:
 
 ## Source Requirements
 
-- `backend/docs/initial-requirements/01-schema-design.md`
-- `backend/docs/initial-requirements/02-api-endpoints.md`
-- `backend/docs/initial-requirements/03-business-rules.md`
-- `backend/docs/initial-requirements/04-tech-requirements.md`
-- `frontend/docs/initial-requirement/01-pages-and-routing.md`
-- `frontend/docs/initial-requirement/02-ui-features.md`
-- `frontend/docs/initial-requirement/03-tech-requirements.md`
+- [Backend: 01-schema-design](../../backend/docs/initial-requirements/01-schema-design.md)
+- [Backend: 02-api-endpoints](../../backend/docs/initial-requirements/02-api-endpoints.md)
+- [Backend: 03-business-rules](../../backend/docs/initial-requirements/03-business-rules.md)
+- [Backend: 04-tech-requirements](../../backend/docs/initial-requirements/04-tech-requirements.md)
+- [Frontend: 01-pages-and-routing](../../frontend/docs/initial-requirement/01-pages-and-routing.md)
+- [Frontend: 02-ui-features](../../frontend/docs/initial-requirement/02-ui-features.md)
+- [Frontend: 03-tech-requirements](../../frontend/docs/initial-requirement/03-tech-requirements.md)
 
 ## Backlog Documents
 
-- `docs/features/vertical-user-stories.md`
-- `docs/features/enablers-and-spikes.md`
+- [Vertical user stories](vertical-user-stories.md)
+- [Enablers and spikes](enablers-and-spikes.md)
 
 ## How To Use
 
-1. Plan sprint scope from `vertical-user-stories.md` first.
+1. Plan sprint scope from [vertical-user-stories.md](vertical-user-stories.md) first.
 2. Pull only the required enablers/spikes for those stories.
 3. Keep enablers small and directly mapped to story dependencies.
 

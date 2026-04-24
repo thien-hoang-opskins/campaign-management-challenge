@@ -8,8 +8,8 @@ Define an implementation-ready refactor for `frontend/src/pages` that reduces re
 
 This spike must explicitly apply both of the following:
 
-- `frontend/.cursor/skills/frontend-ui-engineering/SKILL.md`
-- `~/.agents/skills/clean-code-principles/SKILL.md`
+- [`frontend/.cursor/skills/frontend-ui-engineering/SKILL.md`](../../../frontend/.cursor/skills/frontend-ui-engineering/SKILL.md)
+- `~/.agents/skills/clean-code-principles/SKILL.md` (local machine path; not in this repository)
 
 Applied interpretation:
 

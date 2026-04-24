@@ -5,18 +5,18 @@ Use these items to support vertical stories. Keep them small, dependency-linked,
 ## Enablers
 
 Backend skill enforcement:
-- For backend enablers (`EN-01`, `EN-02`, `EN-03`, `EN-04`), explicitly apply `~/.cursor/skills/layered-backend-structure/SKILL.md`.
+- For backend enablers (`EN-01`, `EN-02`, `EN-03`, `EN-04`), explicitly apply `~/.cursor/skills/layered-backend-structure/SKILL.md` (local machine path; not in this repository).
 
 Frontend skill enforcement:
-- For frontend enablers (`EN-05`, `EN-06`, `EN-07`, `EN-08`), explicitly apply `frontend/.cursor/skills/vercel-react-best-practices/SKILL.md`.
-- For frontend enablers (`EN-05`, `EN-06`, `EN-07`, `EN-08`), explicitly apply `frontend/.cursor/skills/frontend-ui-engineering/SKILL.md`.
+- For frontend enablers (`EN-05`, `EN-06`, `EN-07`, `EN-08`), explicitly apply [`frontend/.cursor/skills/vercel-react-best-practices/SKILL.md`](../../frontend/.cursor/skills/vercel-react-best-practices/SKILL.md).
+- For frontend enablers (`EN-05`, `EN-06`, `EN-07`, `EN-08`), explicitly apply [`frontend/.cursor/skills/frontend-ui-engineering/SKILL.md`](../../frontend/.cursor/skills/frontend-ui-engineering/SKILL.md).
 
 ### EN-01 (P0) - Database schema and migration baseline
 **Type:** Enabler  
 **Outcome:** Clean database can run migrations up/down and produce required core schema.
 
 **Scope**
-- Implement schema and migrations according to `backend/docs/initial-requirements/01-schema-design.md`.
+- Implement schema and migrations according to [backend/docs/initial-requirements/01-schema-design.md](../../backend/docs/initial-requirements/01-schema-design.md).
 - Treat that document as the source of truth for required tables, constraints, indexes, and rollback support.
 
 **Enables**
@@ -28,10 +28,10 @@ Frontend skill enforcement:
 
 **Scope**
 - Implement auth flow and protection according to:
-  - `backend/docs/initial-requirements/02-api-endpoints.md` (Auth, route protection, status/error semantics)
-  - `backend/docs/initial-requirements/04-tech-requirements.md` (JWT middleware and validation requirements)
+  - [backend/docs/initial-requirements/02-api-endpoints.md](../../backend/docs/initial-requirements/02-api-endpoints.md) (Auth, route protection, status/error semantics)
+  - [backend/docs/initial-requirements/04-tech-requirements.md](../../backend/docs/initial-requirements/04-tech-requirements.md) (JWT middleware and validation requirements)
 - Treat those documents as the source of truth for auth contract and protected-route behavior.
-- Apply `backend/.cursor/skills/api-and-interface-design/SKILL.md` for endpoint contracts, validation boundaries, and error format consistency.
+- Apply [`backend/.cursor/skills/api-and-interface-design/SKILL.md`](../../backend/.cursor/skills/api-and-interface-design/SKILL.md) for endpoint contracts, validation boundaries, and error format consistency.
 
 **Enables**
 - `VS-01`, `VS-03`, `VS-04`, `VS-09`
@@ -42,11 +42,11 @@ Frontend skill enforcement:
 
 **Scope**
 - Implement campaign create payload/response and recipient-link model according to:
-  - `backend/docs/initial-requirements/01-schema-design.md` (recipient link constraints and uniqueness)
-  - `backend/docs/initial-requirements/02-api-endpoints.md` (create endpoint contract)
-  - `backend/docs/initial-requirements/03-business-rules.md` (validation and duplicate handling rules)
+  - [backend/docs/initial-requirements/01-schema-design.md](../../backend/docs/initial-requirements/01-schema-design.md) (recipient link constraints and uniqueness)
+  - [backend/docs/initial-requirements/02-api-endpoints.md](../../backend/docs/initial-requirements/02-api-endpoints.md) (create endpoint contract)
+  - [backend/docs/initial-requirements/03-business-rules.md](../../backend/docs/initial-requirements/03-business-rules.md) (validation and duplicate handling rules)
 - Treat those documents as the source of truth for request shape and data integrity behavior.
-- Apply `backend/.cursor/skills/api-and-interface-design/SKILL.md` to enforce contract-first request/response schemas and predictable error semantics.
+- Apply [`backend/.cursor/skills/api-and-interface-design/SKILL.md`](../../backend/.cursor/skills/api-and-interface-design/SKILL.md) to enforce contract-first request/response schemas and predictable error semantics.
 
 **Enables**
 - `VS-02`
@@ -57,10 +57,10 @@ Frontend skill enforcement:
 
 **Scope**
 - Implement lifecycle transitions and guards according to:
-  - `backend/docs/initial-requirements/03-business-rules.md` (state machine, draft-only mutation, send finality, idempotency)
-  - `backend/docs/initial-requirements/02-api-endpoints.md` (schedule/send endpoint behavior)
+  - [backend/docs/initial-requirements/03-business-rules.md](../../backend/docs/initial-requirements/03-business-rules.md) (state machine, draft-only mutation, send finality, idempotency)
+  - [backend/docs/initial-requirements/02-api-endpoints.md](../../backend/docs/initial-requirements/02-api-endpoints.md) (schedule/send endpoint behavior)
 - Treat those documents as the source of truth for lifecycle policy and transition error handling.
-- Apply `backend/.cursor/skills/api-and-interface-design/SKILL.md` for schedule/send/stats API contracts and transition-related error responses.
+- Apply [`backend/.cursor/skills/api-and-interface-design/SKILL.md`](../../backend/.cursor/skills/api-and-interface-design/SKILL.md) for schedule/send/stats API contracts and transition-related error responses.
 
 **Enables**
 - `VS-04`, `VS-05`, `VS-06`, `VS-07`
@@ -71,8 +71,8 @@ Frontend skill enforcement:
 
 **Scope**
 - Implement frontend API/UX foundation according to:
-  - `frontend/docs/initial-requirement/02-ui-features.md` (error handling and loading-state behavior)
-  - `frontend/docs/initial-requirement/03-tech-requirements.md` (React + TypeScript with selected server-state strategy)
+  - [frontend/docs/initial-requirement/02-ui-features.md](../../frontend/docs/initial-requirement/02-ui-features.md) (error handling and loading-state behavior)
+  - [frontend/docs/initial-requirement/03-tech-requirements.md](../../frontend/docs/initial-requirement/03-tech-requirements.md) (React + TypeScript with selected server-state strategy)
 - Provide shared API client and typed response/error models.
 - Provide reusable loading components and shared error display utilities.
 - Treat those documents as the source of truth for FE API interaction and baseline UX feedback patterns.
@@ -85,7 +85,7 @@ Frontend skill enforcement:
 **Outcome:** Required routes exist and protected screens consistently enforce session rules.
 
 **Scope**
-- Implement route skeleton and auth gate according to `frontend/docs/initial-requirement/01-pages-and-routing.md`.
+- Implement route skeleton and auth gate according to [frontend/docs/initial-requirement/01-pages-and-routing.md](../../frontend/docs/initial-requirement/01-pages-and-routing.md).
 - Ensure `/campaigns`, `/campaigns/new`, and `/campaigns/:id` are protected and redirect unauthenticated users to `/login`.
 - Implement session handling policy aligned with requirements (JWT in memory or httpOnly cookie, per chosen variant).
 - Treat that document as the source of truth for route behavior and protected-access flow.
@@ -98,7 +98,7 @@ Frontend skill enforcement:
 **Outcome:** Campaign UI consistently renders status semantics, action visibility, and stats visuals.
 
 **Scope**
-- Implement shared UI behavior primitives according to `frontend/docs/initial-requirement/02-ui-features.md`.
+- Implement shared UI behavior primitives according to [frontend/docs/initial-requirement/02-ui-features.md](../../frontend/docs/initial-requirement/02-ui-features.md).
 - Add status badge mapping (including explicit fallback for unknown statuses).
 - Define status-based action visibility for Schedule/Send/Delete aligned with backend business rules.
 - Add stats visualization primitives for open/send rate display.
@@ -112,7 +112,7 @@ Frontend skill enforcement:
 **Outcome:** Frontend uses one documented stack choice for server state and client state across all screens.
 
 **Scope**
-- Implement selected FE stack baseline according to `frontend/docs/initial-requirement/03-tech-requirements.md`.
+- Implement selected FE stack baseline according to [frontend/docs/initial-requirement/03-tech-requirements.md](../../frontend/docs/initial-requirement/03-tech-requirements.md).
 - Standardize server-state approach (TanStack Query or SWR) and client-state approach (Redux/Zustand per chosen variant).
 - Document final stack choice and variant resolution in README as required by FE tech requirements.
 - Treat that document as the source of truth for FE stack and state-management constraints.
@@ -169,8 +169,8 @@ Frontend skill enforcement:
 - Audit current page components in `frontend/src/pages` against SOLID and separation-of-concerns boundaries.
 - Define a low-risk refactor path that separates container logic (queries/mutations/navigation) from presentational UI sections.
 - Explicitly apply:
-  - `frontend/.cursor/skills/frontend-ui-engineering/SKILL.md`
-  - `~/.agents/skills/clean-code-principles/SKILL.md`
+  - [`frontend/.cursor/skills/frontend-ui-engineering/SKILL.md`](../../frontend/.cursor/skills/frontend-ui-engineering/SKILL.md)
+  - `~/.agents/skills/clean-code-principles/SKILL.md` (local machine path; not in this repository)
 
 **Deliverable**
 - A written findings report with concrete violations and targeted refactor slices.

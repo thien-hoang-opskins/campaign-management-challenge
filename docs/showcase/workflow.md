@@ -69,7 +69,7 @@ Break requirements into two complementary groups:
 
 Run project foundation prompts before story execution:
 
-- [`docs/prompts/monorepo-code-base-init-prompt.md`](../prompts/monorepo-code-base-init-prompt.md)
+- [Monorepo codebase init prompt](../prompts/monorepo-code-base-init-prompt.md)
 
 Goal:
 
@@ -81,7 +81,7 @@ Goal:
 
 Pick stories in sequence and apply:
 
-- [`docs/prompts/vertical-story-implementation-prompt.md`](../prompts/vertical-story-implementation-prompt.md)
+- [Vertical story implementation prompt](../prompts/vertical-story-implementation-prompt.md)
 
 For each story:
 
@@ -97,16 +97,16 @@ After each story implementation:
 - run code review (subagent and manual review)
 - validate generated story docs and ensure internal consistency
 - execute and follow a concrete test plan before sign-off
-- update `progress-log.md` so agents and humans can recover context quickly
+- update [progress-log.md](../implementation/VS-01/progress-log.md) in the story folder (replace `VS-01` with your `STORY_ID`) so agents and humans can recover context quickly
 - capture technical debt, bug follow-ups, and enhancement tasks in decisions/backlog notes
 
-Recommended story document structure:
+Recommended story document structure (under `docs/implementation/<STORY_ID>/`; concrete example: [VS-01](../implementation/VS-01/README.md)):
 
-- `docs/implementation/<STORY_ID>/README.md`
-- `docs/implementation/<STORY_ID>/progress-log.md`
-- `docs/implementation/<STORY_ID>/architecture.md`
-- `docs/implementation/<STORY_ID>/decisions.md`
-- `docs/implementation/<STORY_ID>/test-report.md`
+- [README.md](../implementation/VS-01/README.md)
+- [progress-log.md](../implementation/VS-01/progress-log.md)
+- [architecture.md](../implementation/VS-01/architecture.md)
+- [decisions.md](../implementation/VS-01/decisions.md)
+- [test-report.md](../implementation/VS-01/test-report.md)
 
 ## Workflow Diagram
 
