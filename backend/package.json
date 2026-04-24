@@ -1,0 +1,48 @@
+{
+  "name": "campaign-manager-backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "db:migrate": "sequelize-cli db:migrate --config sequelize.config.cjs --migrations-path src/migrations",
+    "db:migrate:undo": "sequelize-cli db:migrate:undo --config sequelize.config.cjs --migrations-path src/migrations",
+    "db:seed:vs01": "sequelize-cli db:seed --seed 20260424000300-seed-vs01-demo-data.js --config sequelize.config.cjs --seeders-path src/seeders",
+    "db:seed:vs01:undo": "sequelize-cli db:seed:undo --seed 20260424000300-seed-vs01-demo-data.js --config sequelize.config.cjs --seeders-path src/seeders",
+    "db:seed:vs03": "sequelize-cli db:seed --seed 20260424000400-seed-vs03-list-data.js --config sequelize.config.cjs --seeders-path src/seeders",
+    "db:seed:vs03:undo": "sequelize-cli db:seed:undo --seed 20260424000400-seed-vs03-list-data.js --config sequelize.config.cjs --seeders-path src/seeders",
+    "db:seed:vs04": "sequelize-cli db:seed --seed 20260424000500-seed-vs04-detail-stats-data.js --config sequelize.config.cjs --seeders-path src/seeders",
+    "db:seed:vs04:undo": "sequelize-cli db:seed:undo --seed 20260424000500-seed-vs04-detail-stats-data.js --config sequelize.config.cjs --seeders-path src/seeders",
+    "db:seed:vs07": "sequelize-cli db:seed --seed 20260424000600-seed-vs07-send-data.js --config sequelize.config.cjs --seeders-path src/seeders",
+    "db:seed:vs07:undo": "sequelize-cli db:seed:undo --seed 20260424000600-seed-vs07-send-data.js --config sequelize.config.cjs --seeders-path src/seeders",
+    "db:seed:vs09": "sequelize-cli db:seed --seed 20260424000700-seed-vs09-recipients-data.js --config sequelize.config.cjs --seeders-path src/seeders",
+    "db:seed:vs09:undo": "sequelize-cli db:seed:undo --seed 20260424000700-seed-vs09-recipients-data.js --config sequelize.config.cjs --seeders-path src/seeders",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
+    "pino": "^9.5.0",
+    "pino-http": "^10.3.0",
+    "sequelize": "^6.37.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.8",
+    "@types/node": "^22.10.2",
+    "@types/supertest": "^6.0.2",
+    "sequelize-cli": "^6.6.2",
+    "supertest": "^7.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

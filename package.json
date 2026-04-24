@@ -1,0 +1,23 @@
+{
+  "name": "campaign-manager",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Campaign Manager monorepo (backend + frontend)",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "yarn workspace campaign-manager-backend dev",
+    "dev:backend": "yarn workspace campaign-manager-backend dev",
+    "dev:frontend": "yarn workspace campaign-manager-frontend dev",
+    "build": "yarn workspace campaign-manager-backend build && yarn workspace campaign-manager-frontend build",
+    "build:backend": "yarn workspace campaign-manager-backend build",
+    "build:frontend": "yarn workspace campaign-manager-frontend build",
+    "test": "yarn workspace campaign-manager-backend test",
+    "test:backend": "yarn workspace campaign-manager-backend test"
+  }
+}
