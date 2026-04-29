@@ -6,6 +6,7 @@ dotenv.config();
 const envSchema = z.object({
   NODE_ENV: z.enum(["development", "test", "production"]).default("development"),
   PORT: z.coerce.number().default(4000),
+  CORS_ORIGINS: z.string().default("*"),
   DB_HOST: z.string().default("127.0.0.1"),
   DB_PORT: z.coerce.number().default(5434),
   DB_NAME: z.string().default("campaign_management_db"),
